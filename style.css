@@ -23,7 +23,7 @@ header{
     font-size: 24px;
     color: #F9FAF8;
 }
-button{
+.button-header{
     background: #3882F6;
     color: #EFE7EB;
     padding: 10px 30px;
@@ -49,4 +49,73 @@ ul{
     display:flex;
     list-style-type: none;
     gap:30px;
+}
+.title-info-text{
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: bolder;
+}
+.info-text{
+    display:flex;
+    gap:10px;
+    
+}
+.info-text img{
+    width: 120px;
+    height:120px;
+}
+main{
+    padding: 0% 10% 10% 10%;
+}
+
+article{
+    background: #E5E7EB;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    padding: 0% 10% 0% 10%;
+    display:flex;
+    flex-direction: column;
+}
+
+.quote-owner{ 
+    
+    display:flex;
+    justify-content:flex-end;
+    align-items:stretch;
+    font-weight: bold;
+}
+
+
+section{
+    padding: 7% 15% 7% 15%;
+    justify-content: center;
+}
+.section{
+    background: #3882F6;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color:white
+}
+.button-cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    border:1.5px solid white;
+    width: 10%;
+    height:30px;
+    background: #3882F6;
+    border-radius: 7px;
+    color: #E5E7EB;    
+}
+footer{
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EFE7EB;
+    padding: 5px 10%;
 }
